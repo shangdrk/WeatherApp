@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_deleteAll">Delete All</string>
+
+    <!-- CONFIGURATION STRINGS -->
+    <string name="api_key">7f66dcd7810b7c83f2f465c9921bc0c8</string>
+    <string name="current_base_url">http://api.openweathermap.org/data/2.5/weather</string>
+    <string name="forecast_base_url">http://api.openweathermap.org/data/2.5/forecast/daily</string>
+    <string name="icon_url">http://openweathermap.org/img/w/%1$s</string>
+    <string name="geolocation_api_key">AIzaSyAUYJjKjFhfvLxltHKpb-QwNEpIbqNXnkU</string>
+    <string name="geolocation_url">https://maps.googleapis.com/maps/api/timezone/json?location=%1$f,%2$f&amp;timestamp=%3$d&amp;key=%4$s</string>
+
+</resources>

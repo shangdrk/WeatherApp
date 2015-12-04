@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="use_celsius"
+        android:summaryOn="Switch off to use Fahrenheits"
+        android:summaryOff="Switch on to use celsius"
+        android:title="Use Celsius"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="use_24_hour"
+        android:title="Use 24-Hour Time"/>
+</PreferenceScreen>

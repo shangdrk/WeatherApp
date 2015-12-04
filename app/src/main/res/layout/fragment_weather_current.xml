@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_current_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15sp"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_current_country"
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="2sp"
+                android:fontFamily="sans-serif-thin"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_current_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_current_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
+            android:paddingLeft="28dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/upp" />
+
+            <TextView
+                android:id="@+id/tv_current_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/min" />
+
+            <TextView
+                android:id="@+id/tv_current_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_current_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="32dp"
+            android:textSize="26sp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="38dp">
+
+            <TableRow>
+                <TextView
+                    android:text="Sunrise"
+                    android:padding="3dip"
+                    android:paddingRight="10dip"
+                    android:layout_marginRight="50dp"/>
+                <TextView
+                    android:id="@+id/tv_current_sunrise"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <ImageView
+                android:layout_height="5dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/dotted_line"/>
+
+            <TableRow>
+                <TextView
+                    android:text="Sunset"
+                    android:padding="3dip"
+                    android:paddingRight="10dip"/>
+                <TextView
+                    android:id="@+id/tv_current_sunset"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <ImageView
+                android:layout_height="5dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/dotted_line"/>
+
+            <TableRow>
+                <TextView
+                    android:text="Pressure"
+                    android:padding="3dip"
+                    android:paddingRight="10dip"/>
+                <TextView
+                    android:id="@+id/tv_current_pressure"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+            <ImageView
+                android:layout_height="5dp"
+                android:layout_width="match_parent"
+                android:src="@drawable/dotted_line"/>
+
+            <TableRow>
+                <TextView
+                    android:text="Humidity"
+                    android:padding="3dip"
+                    android:paddingRight="10dip"/>
+                <TextView
+                    android:id="@+id/tv_current_humidity"
+                    android:gravity="right"
+                    android:padding="3dip" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
